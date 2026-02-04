@@ -40,3 +40,33 @@
 .read-the-docs {
   color: #888;
 }
+.app.light {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.app.dark {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+.app {
+  min-height: 100vh;
+  padding: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+button {
+  padding: 0.6rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.app.light button {
+  background-color: #222;
+  color: white;
+
+}
+.app.dark {
+  background-color: #f5f5f5;
+  color: #121212;
+}
